@@ -1,0 +1,34 @@
+{
+  "name": "playwright-bdd-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cookies": "npx cucumber-js features/ui/cookies-page.feature",
+    "parallel": "npx cucumber-js --parallel 4",
+    "smoke": "npx cucumber-js --tags @smoke",
+    "regression": "npx cucumber-js --tags @regression",
+    "api": "npx cucumber-js features/api/",
+    "load": "npx cucumber-js features/load/"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.9.0",
+    "@types/pg": "^8.20.0",
+    "excel": "^1.0.1",
+    "pdf-parse": "^2.4.5",
+    "pdf-parse-new": "^2.1.0",
+    "pg": "^8.22.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "xlsx": "^0.18.5"
+  }
+}

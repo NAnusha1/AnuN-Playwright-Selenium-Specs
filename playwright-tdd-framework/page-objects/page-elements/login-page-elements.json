@@ -1,0 +1,17 @@
+{
+    "loginPageHeader": "span.form-title",
+    "businessEmailTextBox":"input[aria-label='Business email']",
+    "forgotPasswordLink":"a.forgot-password-link",
+    "forgotPasswordConfirmationMsg":"//span[text()='Almost done!']",
+    "passwordTextBox":"input[aria-label='Password']",
+    "loginButton":"//span[text()=' LOG IN ']",
+    "orLogInUsingLabel":"text=or log in using",
+    "loginErrorMessage":"//div[contains(text(),'Invalid email or password')]",
+    "linkedInIcon":"img.icon-LinkedIn",
+    "googleIcon":"img.icon-google",
+    "facebookIcon":"img.icon-facebook, img[alt*='Facebook icon'], a.social-icon-facebook",
+    "dontHaveAnAccountLabel":"text=Don't have an account?",
+    "signUpLink":"//span[text()=' SIGN UP ']",
+    "cookieSettingsIcon":"button.CookiebotWidget-logo, #CookiebotWidget, .cookie-settings",
+    "chatbotIcon":".creatio-chatbot, [aria-label*='chatbot' i], #chatbot, iframe[src*='chatbot'], .chat-widget"
+}
